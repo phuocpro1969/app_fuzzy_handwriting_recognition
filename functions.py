@@ -94,8 +94,8 @@ def crop(image):
             image=image[1:, :]  
     
     (height, width) = image.shape
-    height-=1
-    width-=1
+    height -= 1
+    width -= 1
     
     # crop right    
     while True:
